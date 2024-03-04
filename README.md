@@ -1,5 +1,5 @@
 ### Build and dev scripts
--  yarn install - install dependencies
+-  `yarn install` - install dependencies
 - `dev` – start dev server
 - `build` – bundle application for production
 
