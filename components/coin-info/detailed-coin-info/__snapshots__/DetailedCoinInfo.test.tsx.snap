@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detailed coin info test Green test 1`] = `
+[
+  <section
+    class="detailedInfo"
+    data-testid="detailed"
+  >
+    <div>
+      <span>
+        Изменение за 24ч
+      </span>
+      <span
+        style="color: green;"
+      >
+        2
+         %
+      </span>
+    </div>
+    <div>
+      <span>
+        Объём за 24ч
+      </span>
+      <span
+        style="color: green;"
+      >
+        $ 
+        2
+      </span>
+    </div>
+    <div>
+      <span>
+        Капиталицация
+      </span>
+      <span>
+        $ 
+        100
+      </span>
+    </div>
+    <div>
+      <span>
+        Предложение
+      </span>
+      <span>
+        $ 
+        1
+      </span>
+    </div>
+    <div>
+      <span>
+        Макс. предложение
+      </span>
+      <span>
+        $ 
+        2
+      </span>
+    </div>
+  </section>,
+]
+`;
+
+exports[`Detailed coin info test Red test 1`] = `
+[
+  <section
+    class="detailedInfo"
+    data-testid="detailed"
+  >
+    <div>
+      <span>
+        Изменение за 24ч
+      </span>
+      <span
+        style="color: red;"
+      >
+        -2
+         %
+      </span>
+    </div>
+    <div>
+      <span>
+        Объём за 24ч
+      </span>
+      <span
+        style="color: red;"
+      >
+        $ 
+        -2
+      </span>
+    </div>
+    <div>
+      <span>
+        Капиталицация
+      </span>
+      <span>
+        $ 
+        100
+      </span>
+    </div>
+    <div>
+      <span>
+        Предложение
+      </span>
+      <span>
+        $ 
+        1
+      </span>
+    </div>
+    <div>
+      <span>
+        Макс. предложение
+      </span>
+      <span>
+        $ 
+        2
+      </span>
+    </div>
+  </section>,
+]
+`;

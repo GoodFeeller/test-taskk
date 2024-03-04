@@ -1,0 +1,27 @@
+.chart {
+    width: 100%;
+    transition: opacity 0.15s ease;
+    &__loading {
+        opacity: 0;
+    }
+}
+.load {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+.body {
+    position: relative;
+    &__error {
+        color: red;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        margin: auto;
+        text-align: center;
+        vertical-align: middle;
+    }
+}

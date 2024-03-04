@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: var(--roboto);
+    color: white;
+    background-color: #1C1921;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

@@ -1,0 +1,39 @@
+.coinInfo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    &__image {
+        display: inline-block;
+        margin-right: 5px;
+    }
+    &>span {
+        &:first-of-type {
+            font-size: 18pt;
+        }
+        &:last-of-type {
+            margin-left: 40px;
+            margin-right: 20px;
+        }
+    }
+    & .detailedInfo {
+        font-size: 10pt;
+        display: flex;
+        width: 80%;
+        & div {
+            border-right: 2px solid rgba(255, 255, 255, 0.2);
+            padding: 0 5px;
+            flex: 1;
+            & span {
+                &:first-child {
+                    display: block;
+                }
+                cursor: default;
+            }
+        }
+        & :last-child {
+            border: none;
+        }
+        
+    }
+}
